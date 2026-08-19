@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wood-deep: #5b4033;
+  --color-wood-mid: #8a6248;
+  --color-wood-light: #c9a27c;
+  --color-wall: #f4ece1;
+  --color-panel: #ece1d1;
+  --color-panel-shadow: #d8c6ac;
+  --color-ink: #3a2b22;
+  --color-ink-soft: #7a6a5c;
+  --color-rose: #c17b6b;
+  --color-rose-deep: #a85f52;
+  --color-ok: #6f8f6a;
+
+  --font-sans: "Huninn", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Huninn", "Noto Serif TC", ui-serif, Georgia, serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@keyframes mc-pop {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes mc-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes mc-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes mc-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

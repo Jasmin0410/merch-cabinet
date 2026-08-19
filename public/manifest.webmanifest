@@ -1,0 +1,11 @@
+{
+  "name": "周邊整理櫃",
+  "short_name": "整理櫃",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#5b4033",
+  "background_color": "#f4ece1",
+  "display": "standalone"
+}
